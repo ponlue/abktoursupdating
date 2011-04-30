@@ -138,4 +138,12 @@ if (
 
 
 <span class="article_separator">&nbsp;</span>
+
+<div style="margin-top:-20px;">
+	<a href="http://www.abktours.com/index.php?option=com_booking&view=booking&Itemid=61&id=<?php echo $_GET['id']?>&lang=<?php echo $_GET['lang']?>">
+			<img src="images/stories/Booking.gif" />
+           
+    </a>
+</div>
+
 <?php echo $this->article->event->afterDisplayContent; ?>
